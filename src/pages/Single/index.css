@@ -1,0 +1,11 @@
+.Single {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: black;
+
+}
+
+.single-body {
+    min-height: 600px;
+}

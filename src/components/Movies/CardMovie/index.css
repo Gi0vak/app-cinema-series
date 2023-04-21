@@ -1,0 +1,16 @@
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+    width: 193px;
+
+}
+
+.card-title {
+    color: white;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,12 @@
+.television-card {
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+    width: 193px;
+
+}
+
+.card-img-tv {
+    width: 100%;
+    height: auto;
+}

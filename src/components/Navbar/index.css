@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding: 16px 70px;
+    background-color: rgba(26, 31, 56, 1);
+
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    min-width: 475px;
+    grid-template-columns: 400fr 75fr;
+}
+
+.input {
+    font-size: 28px;
+    caret-color: white;
+    width: 100%;
+    height: 58px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border: 0;
+}
+
+.button {
+    border: none;
+    background-color: rgba(196, 196, 196, 0.3);
+    width: 100%;
+    height: 58px;
+}
+
+.loupe {
+    width: 40px;
+}

@@ -1,0 +1,21 @@
+.movies {
+    background-color: black;
+    padding-left: 68px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+
+}
+
+.trending-title {
+    color: white;
+    font-size: 48px;
+}
+
+.cards-grid-movie {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 28px;
+    row-gap: 36px;
+    padding-top: 36px;
+    height: auto;
+}
