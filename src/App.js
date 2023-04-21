@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Single from './pages/Single';
 function App() {
+    let a = 10;
+    console.log(a++, ++a, a++);
     return (
         <div className="App">
             <Routes>

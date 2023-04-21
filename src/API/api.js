@@ -1,4 +1,4 @@
-const API_KEY = '27308609bc21391190be97d54b371817';
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const GetMovies = async () => {
     try {

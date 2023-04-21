@@ -12,7 +12,6 @@ const Single = ({}) => {
     const paramId = parseInt(id);
     console.log(paramId);
     // const dataId = datas.filter((data) => (data.id === paramId))
-    // https://api.themoviedb.org/3/find/{external_id}?api_key=27308609bc21391190be97d54b371817&language=en-US&external_source=imdb_id
 
     const [datasMovie, setDatasMovie] = useState([]);
     const [datasTV, setDatasTV] = useState([]);
